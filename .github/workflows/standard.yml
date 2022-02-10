@@ -1,4 +1,4 @@
-name: format with JavaScript Standard Style
+name: Lint with JavaScript Standard Style
 on: [push]
 jobs:
   format:
@@ -9,5 +9,5 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '16.14.0'
-      - name: Run standard --fix
-        run: yarn dlx standard --fix
+      - name: Run standard
+        run: yarn dlx standard
