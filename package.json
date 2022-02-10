@@ -1,4 +1,7 @@
 {
   "name": "discoraw-js",
-  "packageManager": "yarn@3.1.1"
+  "packageManager": "yarn@3.1.1",
+  "devDependencies": {
+    "standard": "16.0.4"
+  }
 }
