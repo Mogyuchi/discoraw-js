@@ -1,0 +1,13 @@
+name: format with JavaScript Standard Style
+on: [push]
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16.14.0'
+      - name: Run standard --fix
+        run: yarn dlx standard --fix
