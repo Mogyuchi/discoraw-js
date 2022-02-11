@@ -2,6 +2,9 @@
   "name": "discoraw-js",
   "packageManager": "yarn@3.1.1",
   "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
   "devDependencies": {
     "standard": "16.0.4"
   },
