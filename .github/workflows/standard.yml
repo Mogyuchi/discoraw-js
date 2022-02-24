@@ -1,7 +1,7 @@
 name: Lint with JavaScript Standard Style
 on: [push]
 jobs:
-  format:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
