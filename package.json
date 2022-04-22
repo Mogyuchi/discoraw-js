@@ -7,7 +7,7 @@
     "test": "standard"
   },
   "devDependencies": {
-    "standard": "16.0.4"
+    "standard": "17.0.0"
   },
   "dependencies": {
     "discord.js": "^13.6.0"
