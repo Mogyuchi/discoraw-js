@@ -1,6 +1,6 @@
 {
   "name": "discoraw-js",
-  "packageManager": "yarn@3.2.0",
+  "packageManager": "yarn@3.3.1",
   "license": "MIT",
   "scripts": {
     "start": "node src/index.js",
